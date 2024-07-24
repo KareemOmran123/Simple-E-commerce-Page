@@ -7,14 +7,15 @@ body {
 header {
     background-color: #111;
     color: #fff;
-    padding: 1rem;
+    padding: 1rem 0;
     text-align: center;
 }
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    max-width: 1200px;
 }
 
 nav ul {
