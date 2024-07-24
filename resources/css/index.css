@@ -17,7 +17,7 @@ nav {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 0 1px;
 }
 
 nav ul {
@@ -28,7 +28,7 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 10px;
+    margin: 0 20px;
 }
 
 nav ul li a {
@@ -37,3 +37,19 @@ nav ul li a {
     transition: color 0.3s ease;
 }
 
+.topnav {
+    display: flex;
+    margin-left: auto;
+}
+
+.topnav a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: auto;
+}
+
+.small-logo {
+    height: 50px;
+    width: 50px;
+    margin-right: auto;
+}
